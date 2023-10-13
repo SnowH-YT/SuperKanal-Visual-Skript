@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Super kanal (visual mod)
 // @namespace    http://tampermonkey.net/
-// @version      v1
+// @version      v2
 // @description  Show fps in game! And Visual game (NO HACK GAME)
 // @author       Super kanal
 // @match        https://glar.io/
@@ -28,7 +28,7 @@ document.querySelectorAll('div, span, a, img').forEach(el => el.innerText.toLowe
 
 (function(){'use strict';var e=document.getElementById('motdcontent');if(e){e.style.display='none';}})();
 
-(function() {'use strict';const e='https://foni.club/uploads/posts/2023-01/1673352883_foni-club-p-oboi-anime-vrata-1.jpg';function t() {const t=document.getElementById('lobby-layout');if(t) {t.style.backgroundImage=`url('${e}')`;t.style.backgroundSize='cover';} }t();})();
+(function() {'use strict';const e='https://www.fonstola.ru/pic/201310/1920x1080/fonstola.ru_128265.jpg';function t() {const t=document.getElementById('lobby-layout');if(t) {t.style.backgroundImage=`url('${e}')`;t.style.backgroundSize='cover';} }t();})();
 
 
 titleLogo.textContent = "By Super kanal";
